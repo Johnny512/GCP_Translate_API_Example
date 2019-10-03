@@ -5,7 +5,7 @@ from google.cloud import translate
 import json, os
 
 #Create environment variable with creds
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\johnny.castillo\\Downloads\\Translation-386123042010.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\[user]\\Downloads\\[file name].json"
 
 def translate_json(file,target):
     # Instantiates a client
